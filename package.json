@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This is for Team info generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDNovice/team-gen.git"
+  },
+  "keywords": [
+    "team-gen"
+  ],
+  "author": "Sean Yanez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDNovice/team-gen/issues"
+  },
+  "homepage": "https://github.com/SDNovice/team-gen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
