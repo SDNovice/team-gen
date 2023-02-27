@@ -1,5 +1,5 @@
 function htmlContent(data){
-    return `<!DOCTYPE html>
+    `<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -12,3 +12,5 @@ function htmlContent(data){
     </body>
     </html>`
 }
+
+exports.function = htmlContent
